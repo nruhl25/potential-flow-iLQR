@@ -4,6 +4,8 @@ from typing import List, Tuple
 import quad_sim
 from barriers import grad_obst_cost, hess_obst_cost
 
+# This script was orgininall written by the MEAM5170 Teaching Assistants. Our group filled in some of the code for homework and added the barrier functions as part of the final project.
+
 class iLQR(object):
 
     def __init__(self, x_goal: np.ndarray, N: int, dt: float, Q: np.ndarray, R: np.ndarray, Qf: np.ndarray, obst_field):
