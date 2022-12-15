@@ -1,3 +1,5 @@
+# This function uses differential flateness for the 2D quadrotor to transform the streamline (x,y) solution into the full state and input trajectory
+
 import numpy as np
 from scipy.interpolate import CubicSpline
 

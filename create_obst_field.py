@@ -1,3 +1,5 @@
+# This script constains functions for generating the random obstacle field
+
 import numpy as np
 import random
 

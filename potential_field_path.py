@@ -1,3 +1,5 @@
+# The functions in this script are used to create a potential field representing obstacles and to integrate a streamline solution through the field
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import interp2d
